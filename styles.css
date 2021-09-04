@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(255, 124, 124);
+    border-style: ridge;
+
+  }
+
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  h3 {
+      color: brown;
+      font-family:  Helvetica;
+  }
+  
+  p {
+    font-family:  arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+  }
+
+  button {
+    color: brown;
+    font-family:  Helvetica;
+  }
+
+  
