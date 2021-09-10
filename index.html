@@ -1,10 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="styles.css">
         <title>Arithmetic Forms</title>
-        <script src="main.js"></script>
       </head>
 <body>
+    <h1>Arithmetic Forms</h1>
     <div class="form">
         <p>Addition</p>
          <fieldset>
@@ -21,15 +26,6 @@
              <span id="result1">result here</span>
          </fieldset>
     </div>
-    <script>const addNums = () => {
-        let num1 = document.getElementById("num1").value;
-        let num2 = document.getElementById("num2").value;
-        let sum  = parseInt(num1, 10) + parseInt(num2, 10);
-        document.getElementById("result1").innerHTML = sum;
-    };
-    const btnAdd = document.getElementById("add");
-    btnAdd.addEventListener("click", addNums);</script>
-
     <div class="form">
         <p>Multiplication</p>
 <fieldset>
@@ -62,23 +58,7 @@
             <span id="result3">result here</span>
         </fieldset>
     </div>
-    <script>const divideNums = () => {
-        const num5 = document.getElementById("num5").value;
-        const num6 = document.getElementById("num6").value;
-        const divide = num5 / num6; 
-        document.getElementById("result3").innerHTML = divide;
-    };
-    const btnDivide = document.getElementById("divide-float");
-    btnDivide.addEventListener("click", divideNums);</script>
-    <script>const multiplyNums = () => {
-        let num3 = document.getElementById("num3").value;
-        let num4 = document.getElementById("num4").value;  
-        let multiply = num3 * num4;
-       document.getElementById("result2").innerHTML = multiply;
-    };
-    const btnMultiply = document.getElementById("multiply");
-    btnMultiply.addEventListener("click", multiplyNums);
-    </script>
+   
     <div class="form">
         <p>Division Rounded off</p>
         <fieldset>
@@ -96,16 +76,7 @@
             <span id="result4">result here</span>
         </fieldset>
     </div>
-    <script>
-        const divideNumsFixed = () => {
-            const num7 = document.getElementById("num7").value;
-            const num8 = document.getElementById("num8").value;
-            const divide = num7 / num8;
-            const divideFixed = divide.toFixed(2);
-            document.getElementById("result4").innerHTML = divideFixed;
-        };
-        const btnDivideFixed = document.getElementById("divide-fixed");
-        btnDivideFixed.addEventListener("click", divideNumsFixed);</script>
+    
     <div class="form">
         <p>Subtraction</p>
         <fieldset>
@@ -122,15 +93,7 @@
             <span id="result5">result here</span>
         </fieldset>
     </div>
-    <script>const subtractNums = () => {
-        const num9 = document.getElementById("num9").value;
-        const num10 = document.getElementById("num10").value;
-        const subtract = num9 - num10;
-        document.getElementById("result5").innerHTML = subtract;
-    };
-    const btnSubtract = document.getElementById("subtract");
-    btnSubtract.addEventListener("click", subtractNums);
-    </script>
+    
     <div class="form">
         <p>modulo</p>
         <fieldset>
@@ -147,13 +110,7 @@
             <span id="result6">result here</span>
         </fieldset>
     </div>
-    <script>const leftOver = () => {
-        const num11 = document.getElementById("num11").value;
-        const num12 = document.getElementById("num12").value;
-        const modulo = num11 % num12;
-        document.getElementById("result6").innerHTML = modulo;
-    };
-    const btnModulo = document.getElementById("modulo");
-    btnModulo.addEventListener("click", leftOver);</script>
+    
+    <footer id="credits">@ 2021 Darrianna Jackson</footer>
 <script src="main.js"></script>
 </html>
